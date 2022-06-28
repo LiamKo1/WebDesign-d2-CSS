@@ -12,33 +12,33 @@
 <body class="container">
 
   <!-- Page Title -->
-    <h1>My Photo Journal</h1>
-    <p>A collection of photographs I like, updated daily</p>
+    <h1>My Photo Journal
+      A collection of photographs I like, updated daily</h1>
 
   <!-- Image Post -->
-
-    
+<main>
+    <section>
       
-        <h3>The Cutest Puppy!</h2>
-        <h6 class="time-posted"> Posted last year</h6>
+        <h2>The Cutest Puppy!</h2>
+        <p> class="time-posted"> Posted <time>Sep 01, 2019</time></p>
       
 
-      <p>OMG I found the <i>CUTEST</i> puppy! Check it out!</p>
+      <p>OMG I found the <em>CUTEST</em> puppy! Check it out!</p>
       <p>
         <img src="img/2959326615_af04f9878a_z.jpg">
       </p>
-      <p>This picture is <i>"Bizzard, the pup", by Frank Harvey. From the <a
-            href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/">State Library of NSW</a></i>.</p>
-    
+      <p>This picture is <cite>"Bizzard, the pup", by Frank Harvey. From the <a
+            href="https://www.flickr.com/photos/statelibraryofnsw/2959326615/" alt="small puppy">State Library of NSW</a></cite>.</p>
+  </section>
 
     <!-- Comment Form -->
     <section>
       <form>
         <h2>Leave a comment</h2>
         <div>
-          Email: <input id="email_input" 
+          <label>Email:</label> <input id="email_input" 
             placeholder="email@domain.com">
-          Password: <input  id="password_input" >
+          <label>Password:</label> <input  id="password_input" >
         </div>
         <div>
           Comment:
@@ -47,17 +47,17 @@
         <button type="submit"><i class="fas fa-pencil-alt"></i></button>
       </form>
     </section>
-
+  </main>
 
   <!-- Author Info -->
- 
+ <footer>
     <p>This journal was created by me using my own two hands.</p>
     <p>
       Contact me at:
-      me@here.com, or at (555) 123-4567.
+   <address><a>me@here.com</a>, or at <a>(555) 123-4567</a>.</address.
     </p>
-    <p> copyright; 2019 The Author.</p>
-
+    <p> &copy; 2019 The Author.</p>
+  </footer>
 </body>
 
 </html>
